@@ -19,3 +19,6 @@ df2 = pd.DataFrame(
     np.random.rand(20,3),
     columns=['a', 'b', 'c']
 )
+text_input = st.text_input('タイトル')
+if text_input:
+    st.write("You entered: ", text_input)
